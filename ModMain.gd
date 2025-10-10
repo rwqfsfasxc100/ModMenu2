@@ -17,6 +17,13 @@ var _savedObjects := []
 
 func _init(modLoader = ModLoader):
 	l("Initializing DLC")
+	
+	
+	var self_path = self.get_script().get_path()
+	var self_directory = self_path.split(self_path.split("/")[self_path.split("/").size() - 1])[0]
+	var self_check = load(self_directory + "mod_checker_script.tscn").instance()
+	add_child(self_check)
+	
 	replaceScene("PauseMenu.tscn")
 	replaceScene("PauseMenuEnceladus.tscn","res://enceladus/PauseMenuEnceladus.tscn")
 	replaceScene("TitleScreen.tscn")

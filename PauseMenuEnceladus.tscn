@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://HevLib/scenes/scene_replacements/DLClist.tscn" type="PackedScene" id=1]
+[ext_resource path="res://enceladus/PauseLayerEnceladus.tscn" type="PackedScene" id=2]
+[ext_resource path="res://HevLib/ui/mod_menu/ModMenu.tscn" type="PackedScene" id=3]
+
+[node name="PauseMenuEnceladus" instance=ExtResource( 2 )]
+
+[node name="ModMenu" parent="PauseContainer/NoMargins" index="1" instance=ExtResource( 3 )]
+margin_right = 1280.0
+margin_bottom = 720.0
+
+[node name="ModMenu" type="Button" parent="PauseContainer/MarginContainer/VBoxContainer" index="2"]
+margin_top = 339.0
+margin_right = 504.0
+margin_bottom = 380.0
+size_flags_horizontal = 3
+text = "HEVLIB_MOD_MENU"
+
+[node name="DLClist" parent="PauseContainer" index="5" instance=ExtResource( 1 )]
+
+[editable path="MouseLayer"]

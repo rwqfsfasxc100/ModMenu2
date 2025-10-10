@@ -20,6 +20,7 @@ func _init(modLoader = ModLoader):
 	replaceScene("PauseMenu.tscn")
 	replaceScene("PauseMenuEnceladus.tscn","res://enceladus/PauseMenuEnceladus.tscn")
 	replaceScene("TitleScreen.tscn")
+	updateTL("i18n/en.txt","|")
 	
 # Do stuff on ready
 # At this point all AutoLoads are available and the game is loaded

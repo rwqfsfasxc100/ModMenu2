@@ -20,7 +20,7 @@ TAG_ALLOW_ACHIEVEMENTS={"type":"bool","value":true}
 
 HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/ModMenu2"}
 HEVLIB_DISCORD={"URL":"https://discord.com/channels/426287934870781952/1338689985737392229"}
-HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/16"}
+HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/11"}
 HEVLIB_DONATIONS={"URL":"https://ko-fi.com/00hev"}
 HEVLIB_BUGREPORTS={"URL":"https://forms.gle/RmC4Zgonp6frFgnK7"}
 
@@ -30,9 +30,19 @@ en="100%"
 
 [configs]
 
-
+MODMENU2_CONFIG_GENERAL={
+	"clear_ignored_updates":{
+		"name":"MODMENU2_CLEAR_IGNORED_UPDATES",
+		"description":"MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP",
+		"type":"action",
+		"script_path":"res://ModMenu2/clear_ignored.gd",
+		"method":"_clear_pressed",
+		"button_label":"MODMENU2_CLEAR_IGNORED_UPDATES_BUTTON",
+	},
+}
 
 [manifest_definitions]
 
 manifest_version=2.2
+dependancy_mod_ids=["hev.LIBRARY"]
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest"

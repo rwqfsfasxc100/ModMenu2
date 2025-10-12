@@ -19,4 +19,6 @@ text = "HEVLIB_MOD_MENU"
 
 [node name="DLClist" parent="PauseContainer" index="5" instance=ExtResource( 1 )]
 
+[connection signal="pressed" from="PauseContainer/MarginContainer/VBoxContainer/ModMenu" to="PauseContainer/NoMargins/ModMenu" method="show_menu"]
+
 [editable path="MouseLayer"]

@@ -24,15 +24,18 @@ func _init(modLoader = ModLoader):
 	var self_check = load(self_directory + "mod_checker_script.tscn").instance()
 	add_child(self_check)
 	
-	replaceScene("PauseMenu.tscn")
-	replaceScene("PauseMenuEnceladus.tscn","res://enceladus/PauseMenuEnceladus.tscn")
-	replaceScene("TitleScreen.tscn")
 	updateTL("i18n/en.txt","|")
 	
 # Do stuff on ready
 # At this point all AutoLoads are available and the game is loaded
 func _ready():
 	l("Readying")
+	
+	replaceScene("PauseMenu.tscn")
+	replaceScene("Game.tscn")
+	replaceScene("PauseMenuEnceladus.tscn","res://enceladus/PauseMenuEnceladus.tscn")
+	replaceScene("Enceladus.tscn","res://enceladus/Enceladus.tscn")
+	replaceScene("TitleScreen.tscn")
 	l("Ready")
 	
 # This function is a helper to provide any file configurations to your mod

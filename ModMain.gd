@@ -23,6 +23,7 @@ func _init(modLoader = ModLoader):
 	var self_directory = self_path.split(self_path.split("/")[self_path.split("/").size() - 1])[0]
 	var self_check = load(self_directory + "mod_checker_script.tscn").instance()
 	add_child(self_check)
+	installScriptExtension("PauseLayer.gd")
 	
 	updateTL("i18n/en.txt","|")
 	
@@ -30,7 +31,6 @@ func _init(modLoader = ModLoader):
 # At this point all AutoLoads are available and the game is loaded
 func _ready():
 	l("Readying")
-	installScriptExtension("PauseLayer.gd")
 	replaceScene("TitleScreen.tscn")
 	l("Ready")
 	

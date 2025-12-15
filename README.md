@@ -1,6 +1,7 @@
 # ModMenu2
 An improvement on the original Mod Menu mod, with considerably more reliability alongside ManifestV2+ support
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M01L6LMF)
 
 ## Features:
 

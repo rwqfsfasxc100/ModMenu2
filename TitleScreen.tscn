@@ -23,7 +23,7 @@ margin_bottom = 720.0
 margin_right = 1280.0
 margin_bottom = 720.0
 restart_dialog_path = NodePath("../Popups/MMRestartDialog")
-notifications_button_path = NodePath("../../MarginContainer/VBoxContainer/MarginContainer2/GridContainer/HBoxContainer/Notifications")
+notifications_button_path = NodePath("../../MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer/Notifications")
 
 [node name="UpdateNotifier" parent="MenuLayer/TitleMenu/NoMargins/Popups" index="3" instance=ExtResource( 5 )]
 margin_left = 390.0
@@ -57,19 +57,19 @@ margin_top = 634.0
 [node name="GridContainer" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2" index="0"]
 margin_bottom = 86.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer" index="1"]
+[node name="ModMenuButtonContainer" type="HBoxContainer" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer" index="1"]
 margin_top = 45.0
 margin_right = 961.0
 margin_bottom = 86.0
 
-[node name="ModMenu" type="Button" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/HBoxContainer" index="0"]
+[node name="ModMenu" type="Button" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer" index="0"]
 margin_right = 907.0
 margin_bottom = 41.0
 size_flags_horizontal = 3
 text = "HEVLIB_MOD_MENU"
 
-[node name="Notifications" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/HBoxContainer" index="1" instance=ExtResource( 1 )]
+[node name="Notifications" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer" index="1" instance=ExtResource( 1 )]
 
-[connection signal="pressed" from="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/HBoxContainer/ModMenu" to="MenuLayer/TitleMenu/NoMargins/ModMenu" method="show_menu"]
+[connection signal="pressed" from="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer/ModMenu" to="MenuLayer/TitleMenu/NoMargins/ModMenu" method="show_menu"]
 
 [editable path="AsteroidField"]

@@ -1,6 +1,10 @@
 # ModMenu2
 An improvement on the original Mod Menu mod, with considerably more reliability alongside ManifestV2+ support
 
+> [!WARNING]
+> HevLib is required for this mod to function.
+> A download can be found from it's [releases page](https://github.com/rwqfsfasxc100/HevLib/releases/latest)
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M01L6LMF)
 
 ## Features:

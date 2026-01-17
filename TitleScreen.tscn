@@ -51,6 +51,27 @@ margin_bottom = 267.0
 margin_top = 319.0
 margin_bottom = 630.0
 
+[node name="Settings" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="0"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Tales" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="1"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Credits" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="2"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Youtube" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="3"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Community" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="4"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Roadmap" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="5"]
+rect_min_size = Vector2( 0, 41 )
+
+[node name="Exit" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/HBoxContainer/Opts" index="6"]
+rect_min_size = Vector2( 0, 41 )
+
 [node name="MarginContainer2" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer" index="2"]
 margin_top = 634.0
 

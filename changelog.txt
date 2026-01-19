@@ -1,7 +1,7 @@
 [1.0.6]
 
 1="* Added changelogs menu next to the links button on the mod info tab"
-1.1="* Added a 'New Changelogs' specific menu whenever a mod registering a changelog is updated"
+1.1="* Added a 'New Changelogs' specific button to the title screen whenever a mod registering a changelog is updated"
 2="* Added changelog.txt file"
 3="* Updated minimum HevLib requirement to 1.11.2 to make use for the changelog"
 

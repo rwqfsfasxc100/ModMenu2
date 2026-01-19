@@ -31,6 +31,13 @@ en="100%"
 [configs]
 
 MODMENU2_CONFIG_GENERAL={
+	"changelog_spacing_size":{
+		"name":"MMV",
+		"description":"MMV",
+		"type":"string",
+		"clear_button":true,
+		"default":"  "
+	},
 	"clear_ignored_updates":{
 		"name":"MODMENU2_CLEAR_IGNORED_UPDATES",
 		"description":"MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP",
@@ -46,3 +53,4 @@ MODMENU2_CONFIG_GENERAL={
 manifest_version=2.2
 dependancy_mod_ids=["hev.LIBRARY"]
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest"
+changelog_path="changelog.txt"

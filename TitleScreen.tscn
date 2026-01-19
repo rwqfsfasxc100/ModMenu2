@@ -6,8 +6,8 @@
 [ext_resource path="res://TitleScreen.tscn" type="PackedScene" id=4]
 [ext_resource path="res://HevLib/ui/mod_menu/updates/UpdateNotifier.tscn" type="PackedScene" id=5]
 [ext_resource path="res://HevLib/ui/mod_menu/updates/MMRestartDialog.tscn" type="PackedScene" id=6]
-[ext_resource path="res://HevLib/ui/mod_menu/changelogs/ChangelogButton.gd" type="Script" id=7]
 [ext_resource path="res://HevLib/ui/mod_menu/changelogs/ChangelogButton.tscn" type="PackedScene" id=8]
+[ext_resource path="res://HevLib/ui/mod_menu/changelogs/ChangelogMenu.tscn" type="PackedScene" id=9]
 
 [node name="TitleScreen" instance=ExtResource( 4 )]
 
@@ -26,6 +26,10 @@ margin_right = 1280.0
 margin_bottom = 720.0
 restart_dialog_path = NodePath("../Popups/MMRestartDialog")
 notifications_button_path = NodePath("../../MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer/Notifications")
+
+[node name="ChangelogMenu" parent="MenuLayer/TitleMenu/NoMargins" index="5" instance=ExtResource( 9 )]
+margin_right = 1280.0
+margin_bottom = 720.0
 
 [node name="UpdateNotifier" parent="MenuLayer/TitleMenu/NoMargins/Popups" index="3" instance=ExtResource( 5 )]
 margin_left = 390.0
@@ -86,14 +90,15 @@ margin_right = 961.0
 margin_bottom = 86.0
 
 [node name="ModMenu" type="Button" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer" index="0"]
-margin_right = 907.0
+margin_right = 387.0
 margin_bottom = 41.0
 size_flags_horizontal = 3
 text = "HEVLIB_MOD_MENU"
 
 [node name="Changelogs" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer" index="1" instance=ExtResource( 8 )]
-visible = false
-script = ExtResource( 7 )
+margin_left = 391.0
+text = "HEVLIB_CHANGELOGS_NEW"
+changelog_menu = NodePath("../../../../../../NoMargins/ChangelogMenu")
 
 [node name="Notifications" parent="MenuLayer/TitleMenu/MarginContainer/VBoxContainer/MarginContainer2/GridContainer/ModMenuButtonContainer" index="2" instance=ExtResource( 1 )]
 

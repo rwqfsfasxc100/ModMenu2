@@ -1,0 +1,32 @@
+[1.0.6]
+
+1="* Added changelogs menu next to the links button on the mod info tab"
+1.1="* Added a 'New Changelogs' specific menu whenever a mod registering a changelog is updated"
+2="* Added changelog.txt file"
+3="* Updated minimum HevLib requirement to 1.11.2 to make use for the changelog"
+
+[1.0.5]
+
+1="* Fixed issue that caused the title screen option button section to be shorter by 7 pixels when using a language that needed a second font to be loaded."
+2="* Increased minimum HevLib version to 1.11.0 to ensure fixes that were made there are applied, especially those to the restart buttons"
+
+[1.0.4]
+
+1="* Added config profiles, letting you save and change the mod configurations on the fly."
+2="* Due to technical limitations, swapping configs requires a restart. Be careful as swapping mid-dive will wipe progress with no warning."
+
+[1.0.3]
+
+1="* HevLib checker script now works properly and can read MV2.2"
+
+[1.0.2]
+
+1="* Switched to using a script to add buttons and the DLC list to the pause menus. This should save on load times and file size."
+
+[1.0.1]
+
+1="* Fixed missing mod menu buttons on the pause menus"
+
+[1.0.0]
+
+1="* Initial release"

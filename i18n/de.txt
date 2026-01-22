@@ -1,0 +1,13 @@
+locale|en
+
+MODMENU2_MOD_DESCRIPTION|An advanced mod menu that allows almost complete control over how you view your mods.\n\nFeatures:\n\n* Basic mod viewing - will display any mod installed, whether it has modern manifest information or is a basic mod, as well as displaying info for the vanilla game.\n* Config modifications - allows the user to customise any mods that provide a set of configs in the manifest.\n* Update checking - any mod that supplies appropriate updater information will have any updates scanned at launch. Updates can be downloaded individually, as a group, or ignored for the version.\n* Conflict and dependancy checks - any mod that provides mod IDs for mods that are required or don't work with will show a warning on the title screen. NOTE: This only works for mods with manifests.\n* Tag & search filters - lets you filter the displayed mods by keyword or mod ID, or choose from a set of tags contained with mods to display only mods using a specific set of tags
+
+MODMENU2_MOD_BRIEF|An advanced mod menu
+
+MODMENU2_CONFIG_GENERAL|General
+
+MODMENU2_CLEAR_IGNORED_UPDATES|Clear ignored updates
+
+MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP|Clears the list of updates which you chose to ignore
+
+MODMENU2_CLEAR_IGNORED_UPDATES_BUTTON|Clear

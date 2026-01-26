@@ -26,6 +26,7 @@ func _init(modLoader = ModLoader):
 	installScriptExtension("PauseLayer.gd")
 	
 	updateTL("i18n/en.txt","|")
+	updateTL("i18n/de.txt","|")
 	
 # Do stuff on ready
 # At this point all AutoLoads are available and the game is loaded

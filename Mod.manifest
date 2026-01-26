@@ -5,12 +5,13 @@ name="Mod Menu 2"
 description="MODMENU2_MOD_DESCRIPTION"
 brief="MODMENU2_MOD_BRIEF"
 author="__hev"
+credits=["   --- Contributors ---   ","Hedrauta - German translations","   --- Supporters ---   ","GAZI - supporter (ko-fi)"]
 
 [version]
 
 version_major=1
 version_minor=0
-version_bugfix=6
+version_bugfix=7
 
 [tags]
 

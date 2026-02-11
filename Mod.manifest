@@ -33,13 +33,6 @@ de="100%"
 [configs]
 
 MODMENU2_CONFIG_GENERAL={
-	"changelog_spacing_size":{
-		"name":"MMV",
-		"description":"MMV",
-		"type":"string",
-		"clear_button":true,
-		"default":"  "
-	},
 	"clear_ignored_updates":{
 		"name":"MODMENU2_CLEAR_IGNORED_UPDATES",
 		"description":"MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP",

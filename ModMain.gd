@@ -7,7 +7,7 @@ const MOD_PRIORITY = 0
 const MOD_NAME = "Mod Menu 2"
 const MOD_VERSION_MAJOR = 1
 const MOD_VERSION_MINOR = 0
-const MOD_VERSION_BUGFIX = 7
+const MOD_VERSION_BUGFIX = 8
 const MOD_VERSION_METADATA = ""
 
 # Path of the mod folder, automatically generated on runtime

@@ -1,7 +1,7 @@
 ;MOD_ID|hev.ModMenu2
 ;MOD_NAME|Mod Menu 2
 ;MOD_ICON|https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/icon/icon.png
-;MOD_ZIP_NAME|HevLib.zip
+;MOD_ZIP_NAME|ModMenu2.zip
 
 [b]Mod Menu 2[/b]
 

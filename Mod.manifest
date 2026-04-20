@@ -11,11 +11,12 @@ credits=["   --- Contributors ---   ","Hedrauta - German translations","   --- S
 
 version_major=1
 version_minor=0
-version_bugfix=8
+version_bugfix=9
 
 [tags]
 
 TAG_ALLOW_ACHIEVEMENTS={"type":"bool","value":true}
+TAG_ADD_TRANSIT_TIPS={"type":"array","value":["MODMENU2_TRANSIT_TIP_1","MODMENU2_TRANSIT_TIP_2","MODMENU2_TRANSIT_TIP_3"]}
 
 [links]
 

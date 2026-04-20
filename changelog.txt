@@ -1,3 +1,18 @@
+[1.0.9]
+
+1="* Updated credits"
+2="* Moved to driver-based translations"
+3="* Added transit tips"
+
+[1.0.8]
+
+1="* Removed option to adjust the spacing for changelogs"
+
+[1.0.7]
+
+1="* Added German translations"
+2="* Updated minimum HevLib requirement to 1.11.4"
+
 [1.0.6]
 
 1="* Added changelogs menu next to the links button on the mod info tab"

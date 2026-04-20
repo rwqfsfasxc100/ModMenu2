@@ -5,4 +5,4 @@
 
 [b]Mod Menu 2[/b]
 
-Description example text
+Modern mod menu for Delta-V. If you're seeing this in-game, something probably went wrong :)

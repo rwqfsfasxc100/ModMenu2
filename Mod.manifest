@@ -10,8 +10,8 @@ credits=["   --- Contributors ---   ","Hedrauta - German translations","   --- S
 [version]
 
 version_major=1
-version_minor=0
-version_bugfix=10
+version_minor=1
+version_bugfix=0
 
 [tags]
 

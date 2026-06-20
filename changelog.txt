@@ -1,3 +1,9 @@
+[1.1.1]
+
+1="* Re-added changelog spacing config"
+2="* Removed old language data from manifest"
+3="* Updated the clear ignored updates option to make use of the pointers node"
+
 [1.1.0]
 
 1="* Converted into modlet"

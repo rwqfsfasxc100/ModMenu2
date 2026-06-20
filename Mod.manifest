@@ -30,8 +30,8 @@ HEVLIB_BUGREPORTS={"URL":"https://forms.gle/RmC4Zgonp6frFgnK7"}
 
 MODMENU2_CONFIG_GENERAL={
 	"changelog_spacing_size":{
-		"name":"MMV",
-		"description":"MMV",
+		"name":"MODMENU2_CHANGELOG_SPACING_SIZE",
+		"description":"MODMENU2_CHANGELOG_SPACING_SIZE_TOOLTIP",
 		"type":"string",
 		"clear_button":true,
 		"default":"  "

@@ -1,6 +1,6 @@
 extends Node
 
-const ConfigDriver = preload("res://HevLib/pointers/ConfigDriver.gd")
+onready var pointers = CurrentGame.get_tree().get_root().get_node_or_null("HevLib~Pointers")
 
 func _clear_pressed():
-	ConfigDriver.__store_value("ModMenu2","datastore","ignored_updates",{})
+	pointers.ConfigDriver.__store_value("ModMenu2","datastore","ignored_updates",{})

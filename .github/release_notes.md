@@ -4,6 +4,11 @@
 
 ---
 
+## Download Instructions
+
+- Download the file named `ModMenu2.zip` at the bottom of this release panel.
+- Place downloaded zip file into your mods folder.
+
 > [!WARNING]
 > This mod requires HevLib to function
 > 

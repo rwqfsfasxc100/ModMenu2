@@ -1,54 +1,74 @@
 [mod_information]
 
-id="hev.ModMenu2"
 name="Mod Menu 2"
+id="hev.ModMenu2"
 description="MODMENU2_MOD_DESCRIPTION"
 brief="MODMENU2_MOD_BRIEF"
 author="__hev"
-credits=["   --- Contributors ---   ","Hedrauta - German translations","   --- Supporters ---   ","GAZI - supporter (ko-fi)","Bagger dude - supporter (ko-fi)","WT - supporter (ko-fi)", "Tessier-Ashpool S.A. - supporter (ko-fi)"]
+credits=PoolStringArray( "HEVLIB_CREDITS_TRANSLATORS_HEADER", "HEVLIB_CREDITS_TRANSLATORS_1WT1", "HEVLIB_CREDITS_TRANSLATORS_HEDRAUTA", "", "HEVLIB_CREDITS_SUPPORTERS_HEADER", "HEVLIB_CREDITS_SUPPORTERS_KOFI_GAZI", "HEVLIB_CREDITS_SUPPORTERS_KOFI_BAGGERDUDE", "HEVLIB_CREDITS_SUPPORTERS_KOFI_1WT1", "HEVLIB_CREDITS_SUPPORTERS_KOFI_TESSIER" )
 
 [version]
 
 version_major=1
 version_minor=1
-version_bugfix=1
+version_bugfix=2
 
 [tags]
 
-TAG_ALLOW_ACHIEVEMENTS={"type":"bool","value":true}
-TAG_ADD_TRANSIT_TIPS={"type":"array","value":["MODMENU2_TRANSIT_TIP_1","MODMENU2_TRANSIT_TIP_2","MODMENU2_TRANSIT_TIP_3"]}
+TAG_ALLOW_ACHIEVEMENTS={
+"type": "bool",
+"value": true
+}
+TAG_ADD_TRANSIT_TIPS={
+"type": "array",
+"value": [ "MODMENU2_TRANSIT_TIP_1", "MODMENU2_TRANSIT_TIP_2", "MODMENU2_TRANSIT_TIP_3" ]
+}
 
 [links]
 
-HEVLIB_GITHUB={"URL":"https://github.com/rwqfsfasxc100/ModMenu2"}
-HEVLIB_DISCORD={"URL":"https://discord.com/channels/426287934870781952/1338689985737392229"}
-HEVLIB_NEXUS={"URL":"https://www.nexusmods.com/dvringsofsaturn/mods/11"}
-HEVLIB_DONATIONS={"URL":"https://ko-fi.com/00hev"}
-HEVLIB_BUGREPORTS={"URL":"https://forms.gle/RmC4Zgonp6frFgnK7"}
+HEVLIB_GITHUB={
+"URL": "https://github.com/rwqfsfasxc100/ModMenu2"
+}
+HEVLIB_DISCORD={
+"URL": "https://discord.com/channels/426287934870781952/1338689985737392229"
+}
+HEVLIB_NEXUS={
+"URL": "https://www.nexusmods.com/dvringsofsaturn/mods/11"
+}
+HEVLIB_DONATIONS={
+"URL": "https://ko-fi.com/00hev"
+}
+HEVLIB_BUGREPORTS={
+"URL": "https://forms.gle/RmC4Zgonp6frFgnK7"
+}
 
 [configs]
 
 MODMENU2_CONFIG_GENERAL={
-	"changelog_spacing_size":{
-		"name":"MODMENU2_CHANGELOG_SPACING_SIZE",
-		"description":"MODMENU2_CHANGELOG_SPACING_SIZE_TOOLTIP",
-		"type":"string",
-		"clear_button":true,
-		"default":"  "
-	},
-	"clear_ignored_updates":{
-		"name":"MODMENU2_CLEAR_IGNORED_UPDATES",
-		"description":"MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP",
-		"type":"action",
-		"script_path":"res://ModMenu2/clear_ignored.gd",
-		"method":"_clear_pressed",
-		"button_label":"MODMENU2_CLEAR_IGNORED_UPDATES_BUTTON",
-	},
+"changelog_spacing_size": {
+"clear_button": true,
+"default": "  ",
+"description": "MODMENU2_CHANGELOG_SPACING_SIZE_TOOLTIP",
+"display_order_position": 0,
+"name": "MODMENU2_CHANGELOG_SPACING_SIZE",
+"placeholder": "HEVLIB_CONFIG_LINEEDIT_PLACEHOLDER",
+"type": "string"
+},
+"clear_ignored_updates": {
+"button_label": "MODMENU2_CLEAR_IGNORED_UPDATES_BUTTON",
+"description": "MODMENU2_CLEAR_IGNORED_UPDATES_TOOLTIP",
+"display_order_position": 1,
+"method": "_clear_pressed",
+"name": "MODMENU2_CLEAR_IGNORED_UPDATES",
+"script_path": "res://ModMenu2/clear_ignored.gd",
+"type": "action"
+}
 }
 
 [manifest_definitions]
 
 manifest_version=2.2
-dependancy_mod_ids=["hev.LIBRARY"]
+dependancy_mod_ids=[ "hev.LIBRARY" ]
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest"
 changelog_path="changelog.txt"
+expected_manifest_path="res://ModMenu2/Mod.manifest"

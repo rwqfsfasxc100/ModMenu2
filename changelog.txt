@@ -1,3 +1,8 @@
+[1.1.2]
+
+1=* Updated credits
+2=* Added licensing
+
 [1.1.1]
 
 1="* Re-added changelog spacing config"

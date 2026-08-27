@@ -49,4 +49,3 @@ func _ready():
 	button.text = "HEVLIB_MOD_MENU"
 	button_container.add_child(button)
 	button_container.move_child(button,2)
-	pass

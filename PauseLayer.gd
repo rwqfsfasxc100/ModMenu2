@@ -37,15 +37,13 @@ func _ready():
 	if mm2_adddlclist_uinit:
 		OS.kill(OS.get_process_id())
 	mm2_adddlclist_uinit = true
-	var menu_container = $PauseContainer/NoMargins
-	var button_container = $PauseContainer/MarginContainer/VBoxContainer
-	var mod_menu = load("res://HevLib/ui/mod_menu/ModMenu.tscn")
-	var mm = mod_menu.instance()
-	var button = Button.new()
-	button.connect("pressed",mm,"show_menu")
-	menu_container.add_child(mm)
 	$PauseContainer.add_child(load("res://tools/DLClist.tscn").instance())
+	var mm:Node = load("res://HevLib/ui/mod_menu/ModMenu.tscn").instance()
+	$PauseContainer/NoMargins.add_child(mm)
+	var button:Button = Button.new()
+	button.connect("pressed",mm,"show_menu")
 	button.name = "ModMenu"
 	button.text = "HEVLIB_MOD_MENU"
+	var button_container:VBoxContainer = $PauseContainer/MarginContainer/VBoxContainer
 	button_container.add_child(button)
 	button_container.move_child(button,2)

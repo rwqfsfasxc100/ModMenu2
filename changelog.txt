@@ -1,3 +1,7 @@
+[1.2.1]
+
+1=* Re-added icon png due to it causing the db updater script to crash
+
 [1.2.0]
 
 1=* Moved title screen update notifications to HevLib

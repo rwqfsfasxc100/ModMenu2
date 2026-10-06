@@ -10,8 +10,8 @@ credits=PoolStringArray( "HEVLIB_CREDITS_TRANSLATORS_HEADER", "HEVLIB_CREDITS_TR
 [version]
 
 version_major=1
-version_minor=1
-version_bugfix=2
+version_minor=2
+version_bugfix=0
 
 [tags]
 

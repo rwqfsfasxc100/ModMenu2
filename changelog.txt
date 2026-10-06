@@ -1,3 +1,8 @@
+[1.2.0]
+
+1=* Moved title screen update notifications to HevLib
+2=* Removed a number of unused icon images
+
 [1.1.2]
 
 1=* Updated credits

@@ -35,7 +35,7 @@ extends "res://PauseLayer.gd"
 var mm2_adddlclist_uinit : bool = false
 func _ready():
 	if mm2_adddlclist_uinit:
-		OS.kill(OS.get_process_id())
+		ModLoader._savedObjects[0].main_modmain.log_double_load_error(get_script().resource_path)
 	mm2_adddlclist_uinit = true
 	$PauseContainer.add_child(load("res://tools/DLClist.tscn").instance())
 	var mm:Node = load("res://HevLib/ui/mod_menu/ModMenu.tscn").instance()

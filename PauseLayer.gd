@@ -38,6 +38,7 @@ func _ready():
 	mm2_adddlclist_uinit = true
 	$PauseContainer.add_child(load("res://tools/DLClist.tscn").instance())
 	var mm:Node = load("res://HevLib/ui/mod_menu/ModMenu.tscn").instance()
+	mm.is_in_game = true
 	$PauseContainer/NoMargins.add_child(mm)
 	var button:Button = Button.new()
 	button.connect("pressed",mm,"show_menu")

@@ -1,6 +1,6 @@
 [mod_information]
 
-name="Mod Menu 2"
+name="MODMENU2_MOD_NAME"
 id="hev.ModMenu2"
 description="MODMENU2_MOD_DESCRIPTION"
 brief="MODMENU2_MOD_BRIEF"
@@ -11,7 +11,7 @@ credits=PoolStringArray( "HEVLIB_CREDITS_TRANSLATORS_HEADER", "HEVLIB_CREDITS_TR
 
 version_major=1
 version_minor=2
-version_bugfix=1
+version_bugfix=2
 
 [tags]
 
@@ -67,8 +67,11 @@ MODMENU2_CONFIG_GENERAL={
 
 [manifest_definitions]
 
-manifest_version=2.2
-dependancy_mod_ids=[ "hev.LIBRARY" ]
+manifest_version=2.3
+dependancy_mod_ids=[ {
+"blocking": true,
+"mod_id": "hev.LIBRARY"
+}, "hev.LIBRARY.AchievementIcons" ]
 manifest_url="https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest"
 changelog_path="changelog.txt"
 expected_manifest_path="res://ModMenu2/Mod.manifest"
